@@ -1,0 +1,138 @@
+.whole {
+  background: linear-gradient(to right, #FFFFFF, rgb(121, 216, 245));
+}
+
+.menu {
+  text-align: center;
+  float: center;
+}
+
+h1 {
+  color: black;
+  font-size: 100px;
+  font-family: "Poppins", "Regular 400";
+  line-height: 50px;
+  padding-top: 50px
+  
+}
+
+a {
+  color: black;
+  font-family: "Copperplate", "Courier New", fantasy;
+  font-size: 30px;
+  padding: 0px 0px;
+  word-wrap: normal;
+  display: inline-block;
+}
+/* maybe delete */
+a:link {
+  text-decoration: none;
+}
+/* maybe delete */
+a:visited {
+  text-decoration: none;
+}
+
+.test ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.test ul li::after{
+  content:'';
+  width:0%;
+  height:2px;
+  background: rgb(0, 179, 134);
+  display: block;
+  margin: auto;
+  transition:0.5s; 
+
+}
+
+.test ul li:hover::after{
+  width:100%;
+ 
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.background_Home {
+  width: 30%;
+  height: 30%;
+}
+
+.Home_statement {
+  font-size: 100px;
+  width: auto;
+  padding: 50px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.bodyText {
+  padding: 0px;
+  width: 500px;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+/* ----------–––––-- */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin: 0 auto;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-decoration-color: #ffffff;
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-decoration-color: #ffffff;
+  width: 33%;
+  text-align: center;
+  font-size: 24px;
+  word-spacing: 1.5px;
+}
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+h2 {
+  color: black;
+  font-size: 60px;
+  font-family: "Poppins", "Regular 400";
+  line-height: 50px;
+  padding-top: 50px
+  
+}
+
+p {
+  color: black;
+  font-size: 24px;
+  font-family: "Poppins", "Regular 400";
+  line-height: 50px;
+  padding-top: 50px
+  
+}

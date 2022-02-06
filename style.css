@@ -1,0 +1,197 @@
+.whole {
+  background: linear-gradient(to right, #FFFFFF, rgb(121, 216, 245));
+}
+
+.home {
+    background: linear-gradient(to right, #FFFFFF, rgb(121, 216, 245));
+
+}
+
+.menu {
+  text-align: center;
+  float: center;
+}
+
+h1 {
+  color: black;
+  font-size: 100px;
+  font-family: "Poppins", "Regular 400";
+  line-height: 50px;
+  padding-top: 50px
+  
+}
+
+a {
+  color: black;
+  font-family: "Copperplate", "Courier New", fantasy;
+  font-size: 30px;
+  padding: 0px 0px;
+  word-wrap: normal;
+  display: inline-block;
+}
+/* maybe delete */
+a:link {
+  text-decoration: none;
+}
+/* maybe delete */
+a:visited {
+  text-decoration: none;
+}
+
+.test ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.test ul li::after{
+  content:'';
+  width:0%;
+  height:2px;
+  background: rgb(0, 179, 134);
+  display: block;
+  margin: auto;
+  transition:0.5s; 
+
+}
+
+.test ul li:hover::after{
+  width:100%;
+ 
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.background_Home {
+  width: 30%;
+  height: 30%;
+}
+
+.Home_statement {
+  font-size: 100px;
+  width: auto;
+  padding: 50px;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.bodyText {
+  padding: 0px;
+  width: 500px;
+  text-align: center;
+  margin-left: 250px;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+th {
+  padding:10px;
+}
+td {
+
+  text-align:center;
+  padding:10px;
+}
+
+.column {
+  margin-top: 250px;
+  margin-left: 100px;
+  height: 100px;
+}
+
+/* -------------------- */
+/* slideshow */
+* {box-sizing: border-box}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif; margin:0 auto}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #FFFFFF;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #b9b9b9;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(141, 141, 141, 0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #b9b9b9;
+}
+
+/* video */
+.video{
+  width: 45%;
+  margin: 0 auto;
+}
+
+.bot {
+  width: 25%;
+  margin: 0 auto;
+}
